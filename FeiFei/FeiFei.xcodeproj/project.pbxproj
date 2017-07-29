@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F657A2CD1F2D19050087AB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A2CC1F2D19050087AB1C /* main.m */; };
+		F657A2D01F2D19050087AB1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A2CF1F2D19050087AB1C /* AppDelegate.m */; };
+		F657A2D31F2D19050087AB1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A2D21F2D19050087AB1C /* ViewController.m */; };
+		F657A2D61F2D19050087AB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F657A2D41F2D19050087AB1C /* Main.storyboard */; };
+		F657A2D81F2D19050087AB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F657A2D71F2D19050087AB1C /* Assets.xcassets */; };
+		F657A2DB1F2D19050087AB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F657A2D91F2D19050087AB1C /* LaunchScreen.storyboard */; };
+		F657A2E61F2D19060087AB1C /* FeiFeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A2E51F2D19060087AB1C /* FeiFeiTests.m */; };
+		F657A2F11F2D19060087AB1C /* FeiFeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A2F01F2D19060087AB1C /* FeiFeiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F657A2E21F2D19060087AB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F657A2C01F2D19050087AB1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F657A2C71F2D19050087AB1C;
+			remoteInfo = FeiFei;
+		};
+		F657A2ED1F2D19060087AB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F657A2C01F2D19050087AB1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F657A2C71F2D19050087AB1C;
+			remoteInfo = FeiFei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F657A2C81F2D19050087AB1C /* FeiFei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiFei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F657A2CC1F2D19050087AB1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F657A2CE1F2D19050087AB1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F657A2CF1F2D19050087AB1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F657A2D11F2D19050087AB1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F657A2D21F2D19050087AB1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F657A2D51F2D19050087AB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F657A2D71F2D19050087AB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F657A2DA1F2D19050087AB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F657A2DC1F2D19050087AB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F657A2E11F2D19060087AB1C /* FeiFeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiFeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F657A2E51F2D19060087AB1C /* FeiFeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiFeiTests.m; sourceTree = "<group>"; };
+		F657A2E71F2D19060087AB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F657A2EC1F2D19060087AB1C /* FeiFeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiFeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F657A2F01F2D19060087AB1C /* FeiFeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiFeiUITests.m; sourceTree = "<group>"; };
+		F657A2F21F2D19060087AB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F657A2C51F2D19050087AB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2DE1F2D19060087AB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2E91F2D19060087AB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F657A2BF1F2D19050087AB1C = {
+			isa = PBXGroup;
+			children = (
+				F657A2CA1F2D19050087AB1C /* FeiFei */,
+				F657A2E41F2D19060087AB1C /* FeiFeiTests */,
+				F657A2EF1F2D19060087AB1C /* FeiFeiUITests */,
+				F657A2C91F2D19050087AB1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F657A2C91F2D19050087AB1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F657A2C81F2D19050087AB1C /* FeiFei.app */,
+				F657A2E11F2D19060087AB1C /* FeiFeiTests.xctest */,
+				F657A2EC1F2D19060087AB1C /* FeiFeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F657A2CA1F2D19050087AB1C /* FeiFei */ = {
+			isa = PBXGroup;
+			children = (
+				F657A2CE1F2D19050087AB1C /* AppDelegate.h */,
+				F657A2CF1F2D19050087AB1C /* AppDelegate.m */,
+				F657A2D11F2D19050087AB1C /* ViewController.h */,
+				F657A2D21F2D19050087AB1C /* ViewController.m */,
+				F657A2D41F2D19050087AB1C /* Main.storyboard */,
+				F657A2D71F2D19050087AB1C /* Assets.xcassets */,
+				F657A2D91F2D19050087AB1C /* LaunchScreen.storyboard */,
+				F657A2DC1F2D19050087AB1C /* Info.plist */,
+				F657A2CB1F2D19050087AB1C /* Supporting Files */,
+			);
+			path = FeiFei;
+			sourceTree = "<group>";
+		};
+		F657A2CB1F2D19050087AB1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F657A2CC1F2D19050087AB1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F657A2E41F2D19060087AB1C /* FeiFeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F657A2E51F2D19060087AB1C /* FeiFeiTests.m */,
+				F657A2E71F2D19060087AB1C /* Info.plist */,
+			);
+			path = FeiFeiTests;
+			sourceTree = "<group>";
+		};
+		F657A2EF1F2D19060087AB1C /* FeiFeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F657A2F01F2D19060087AB1C /* FeiFeiUITests.m */,
+				F657A2F21F2D19060087AB1C /* Info.plist */,
+			);
+			path = FeiFeiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F657A2C71F2D19050087AB1C /* FeiFei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F657A2F51F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFei" */;
+			buildPhases = (
+				F657A2C41F2D19050087AB1C /* Sources */,
+				F657A2C51F2D19050087AB1C /* Frameworks */,
+				F657A2C61F2D19050087AB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiFei;
+			productName = FeiFei;
+			productReference = F657A2C81F2D19050087AB1C /* FeiFei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F657A2E01F2D19060087AB1C /* FeiFeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F657A2F81F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFeiTests" */;
+			buildPhases = (
+				F657A2DD1F2D19060087AB1C /* Sources */,
+				F657A2DE1F2D19060087AB1C /* Frameworks */,
+				F657A2DF1F2D19060087AB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F657A2E31F2D19060087AB1C /* PBXTargetDependency */,
+			);
+			name = FeiFeiTests;
+			productName = FeiFeiTests;
+			productReference = F657A2E11F2D19060087AB1C /* FeiFeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F657A2EB1F2D19060087AB1C /* FeiFeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F657A2FB1F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFeiUITests" */;
+			buildPhases = (
+				F657A2E81F2D19060087AB1C /* Sources */,
+				F657A2E91F2D19060087AB1C /* Frameworks */,
+				F657A2EA1F2D19060087AB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F657A2EE1F2D19060087AB1C /* PBXTargetDependency */,
+			);
+			name = FeiFeiUITests;
+			productName = FeiFeiUITests;
+			productReference = F657A2EC1F2D19060087AB1C /* FeiFeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F657A2C01F2D19050087AB1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "范泽华";
+				TargetAttributes = {
+					F657A2C71F2D19050087AB1C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					F657A2E01F2D19060087AB1C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F657A2C71F2D19050087AB1C;
+					};
+					F657A2EB1F2D19060087AB1C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F657A2C71F2D19050087AB1C;
+					};
+				};
+			};
+			buildConfigurationList = F657A2C31F2D19050087AB1C /* Build configuration list for PBXProject "FeiFei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F657A2BF1F2D19050087AB1C;
+			productRefGroup = F657A2C91F2D19050087AB1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F657A2C71F2D19050087AB1C /* FeiFei */,
+				F657A2E01F2D19060087AB1C /* FeiFeiTests */,
+				F657A2EB1F2D19060087AB1C /* FeiFeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F657A2C61F2D19050087AB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F657A2DB1F2D19050087AB1C /* LaunchScreen.storyboard in Resources */,
+				F657A2D81F2D19050087AB1C /* Assets.xcassets in Resources */,
+				F657A2D61F2D19050087AB1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2DF1F2D19060087AB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2EA1F2D19060087AB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F657A2C41F2D19050087AB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F657A2D31F2D19050087AB1C /* ViewController.m in Sources */,
+				F657A2D01F2D19050087AB1C /* AppDelegate.m in Sources */,
+				F657A2CD1F2D19050087AB1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2DD1F2D19060087AB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F657A2E61F2D19060087AB1C /* FeiFeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F657A2E81F2D19060087AB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F657A2F11F2D19060087AB1C /* FeiFeiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F657A2E31F2D19060087AB1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F657A2C71F2D19050087AB1C /* FeiFei */;
+			targetProxy = F657A2E21F2D19060087AB1C /* PBXContainerItemProxy */;
+		};
+		F657A2EE1F2D19060087AB1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F657A2C71F2D19050087AB1C /* FeiFei */;
+			targetProxy = F657A2ED1F2D19060087AB1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F657A2D41F2D19050087AB1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F657A2D51F2D19050087AB1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F657A2D91F2D19050087AB1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F657A2DA1F2D19050087AB1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F657A2F31F2D19060087AB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F657A2F41F2D19060087AB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F657A2F61F2D19060087AB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeiFei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F657A2F71F2D19060087AB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeiFei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F657A2F91F2D19060087AB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeiFeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiFei.app/FeiFei";
+			};
+			name = Debug;
+		};
+		F657A2FA1F2D19060087AB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeiFeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiFei.app/FeiFei";
+			};
+			name = Release;
+		};
+		F657A2FC1F2D19060087AB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeiFeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeiFei;
+			};
+			name = Debug;
+		};
+		F657A2FD1F2D19060087AB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeiFeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanzehua.FeiFeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeiFei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F657A2C31F2D19050087AB1C /* Build configuration list for PBXProject "FeiFei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F657A2F31F2D19060087AB1C /* Debug */,
+				F657A2F41F2D19060087AB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F657A2F51F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F657A2F61F2D19060087AB1C /* Debug */,
+				F657A2F71F2D19060087AB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F657A2F81F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F657A2F91F2D19060087AB1C /* Debug */,
+				F657A2FA1F2D19060087AB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F657A2FB1F2D19060087AB1C /* Build configuration list for PBXNativeTarget "FeiFeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F657A2FC1F2D19060087AB1C /* Debug */,
+				F657A2FD1F2D19060087AB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F657A2C01F2D19050087AB1C /* Project object */;
+}
